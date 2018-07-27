@@ -1,0 +1,30 @@
+{
+	"details":{
+		"name":"nagalakshmi",
+		"image":"image.jpg",
+		"phone":"9110729665",
+		"email":"ammulu@gmail.com"
+
+	},
+	"education":[
+{
+	"course":"B.Tech(CSE)",
+	"college":"MIC COLLEGE",
+	"per":"80%"
+
+},
+
+{
+	"course":"Intermediate(MPC)",
+	"college":"Apswrs college",
+	"per":"90%"
+},
+{
+
+"course":"SSC(CSE)",
+	"college":"MIC COLLEGE",
+	"per":"88%"
+}
+	]
+
+}
