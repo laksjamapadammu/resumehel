@@ -1,0 +1,16 @@
+.main{
+	width:100%;
+	background-color:pink;
+	display:flex; 
+}
+.left{
+	width: 20%;
+	border: 3px solid red;
+}
+.right{
+	width:20%;
+	border: 3px solid green;
+}
+img{
+	width: 50%;
+}
