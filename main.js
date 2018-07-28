@@ -14,6 +14,8 @@ loadjson("data.json",function(text){
 	console.log(data);
 	basic(data.details);
 	edu(data.education);
+	skill(data.skills);
+	carr(data.carrier);
 })
 var main=document.querySelector(".main");
 var left=document.createElement("div");
