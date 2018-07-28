@@ -25,6 +25,27 @@
 	"college":"MIC COLLEGE",
 	"per":"88%"
 }
-	]
+	],
+	"skills":[
+		{
+			"title":"programming Languages",
+			"output":[
+				"c","C++","java","python"
+			]
+		},
+		{
+			"titel":"operating systems",
+			"output":[
+				"Windwos","Linux","MAC"
+			]
+
+		}
+	],
+"carrier":{
+	"co":"To associate with organization and utilize my technical skills to the growth of our company"
+}
+
+
+}
 
 }
