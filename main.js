@@ -38,21 +38,52 @@ var right=document.createElement("div");
 right.classList.add("right");
 main.appendChild(right);
 function edu(education){
-	var un=document.createElement("ul");
+	var e=document.createElement("h1");
+	e.textContent="Educational Details";
+	right.appendChild(e);
+	 e.appendChild(document.createElement("HR"));
+   var un=document.createElement("ul");
 	right.appendChild(un);
 	for (var i =education.length - 1; i >= 0; i--) {
-	var l=document.createElement("li");
+	 var l=document.createElement("h1");
 	l.textContent=education[i].course;
 	un.appendChild(l);
-	var l1=document.createElement("li");
-	l1.textContent=education[i].college;
-	un.appendChild(l1);
-	var l2=document.createElement("li");
-	l2.textContent=education[i].per;
-	un.appendChild(l2);
+	 var l1=document.createElement("li");
+	 l1.textContent=education[i].college;
+	 un.appendChild(l1);
+	 var l2=document.createElement("li");
+	 l2.textContent=education[i].per;
+	 un.appendChild(l2);
+ }
 }
-
-
+function skill(skillsdata){
+ 	var s=document.createElement("div");
+ 	s.classList.add("sset");
+	 right.appendChild(s);
+ 	var head=document.createElement("h1");
+ 	head.textContent="Skill Set";
+right.appendChild(head);
+	 s.appendChild(document.createElement("HR"));
+ 	var t=document.createElement("table");
+	var tabledata="";
+ for (var i = 0; i < skillsdata.length; i++) {
+ 	tabledata+="<tr><td>"+skillsdata[i].title+"</td><td>"+skillsdata[i].output+"</td></tr>";
+	t.innerHTML=tabledata;
+	
+}
+	head.appendChild(t);
+ }
+ function carr(carrier){
+ 	var d=document.createElement("div");
+ 	d.classList.add("carrier");
+ 	right.appendChild(d);
+ 	var e=document.createElement("h1");
+ 	 	e.textContent="Carrier Object";
+	d.appendChild(e);
+	 	var para=document.createElement("p");
+ 	para.textContent=carrier.co;
+ 	e.appendChild(para);
+}
 
 
 }
