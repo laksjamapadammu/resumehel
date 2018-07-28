@@ -88,5 +88,3 @@ right.appendChild(head);
 }
 
 
-}
-
